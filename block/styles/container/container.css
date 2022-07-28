@@ -1,0 +1,23 @@
+.container{
+    width: 850px;
+    padding: 30px 35px 35px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgb(219, 215, 255);
+  }
+  .container.disable .editor-panel,
+  .container.disable .controls .reset-filter,
+  .container.disable .controls .save-img{
+    opacity: 0.5;
+    pointer-events: none;
+  }
+  .container h2{
+    margin-top: -8px;
+    font-size: 22px;
+    font-weight: 500;
+  }
+  .container .wrapper{
+    display: flex;
+    margin: 20px 0;
+    min-height: 335px;
+  }

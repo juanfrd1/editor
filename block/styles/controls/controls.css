@@ -1,0 +1,44 @@
+.controls button{
+    padding: 11px 20px;
+    font-size: 14px;
+    border-radius: 3px;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    background: none;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+  }
+  .controls {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .controls .reset-filter{
+    color: #4b39ef;
+    border: 1px solid #4b39ef;
+  }
+  .controls .reset-filter:hover{
+    color: #fff;
+    background: #4b39ef;
+  }
+  .controls .choose-img{
+    background: #4b39ef;
+    border: 1px solid #bebebe;
+  }
+  .controls .save-img{
+    margin-left: 5px;
+    background: #39efef;
+    border: 1px solid #18fff3;
+  }
+
+  
+    @keyframes latidos {
+      from { transform: none; }
+      50% { transform: scale(0.9); }
+      to { transform: none; }
+  }
+  
+  .choose-img {
+    animation: latidos .9s infinite;
+  }
